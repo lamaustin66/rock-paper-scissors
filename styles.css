@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: gray;
+    font-family: sans-serif;
+    color: white;
+    line-height: 1.5;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    background-color: black;
+}
+
+.main {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.winOrLose {
+    font-size: 32px;
+}
+
+.battleResult {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.scorebox {
+    width: 170px;
+}
+
+.sign {
+    font-size: 80px;
+}
+
+.score {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.rockPaperScissorsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.button {
+    border-radius: 10px;
+    background-color: white;
+    width: 160px;
+    height: 160px;
+}
+
+.button:hover {
+    background-color: yellow;
+}
+
+.button:active {
+    background-color: greenyellow;
+}
